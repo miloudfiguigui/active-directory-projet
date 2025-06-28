@@ -1,22 +1,21 @@
-# 🖥️ Projet Active Directory - Windows Server
+# Projet Active Directory - Windows Server
 
-## 🎯 Objectif
+## Objectif
 Mettre en place un environnement Active Directory fonctionnel, avec :
 
 - Un domaine Windows (`monreseau.local`)
 - Une Unité d’Organisation `Informatique`
-- Un groupe `Admins`
-- Deux utilisateurs (`nabil.ahmed`, `mehdi.benali`)
+- Un groupe `admins`
+- Deux utilisateurs (`Figuiguii.Miloudd`, `Valentin.Phillips`)
 
-## 🛠️ Prérequis
-- Windows Server 2019 ou 2022 (VM Azure ou locale)
+## Prérequis
+- Windows Server 2019 ou 2022 (VMware)
 - Rôle AD DS installé
 - Nom d’hôte propre (ex: `srv-ad.monreseau.local`)
 - Compte administrateur
 
-## 📁 Structure du dépôt
+## Structure du dépôt
 ```
-.
 active-directory-projet/
 ├── captures/
 │ ├── AD-installation.png
@@ -28,11 +27,11 @@ active-directory-projet/
 ```
 
 ---
-## 📸 Aperçu
+## Aperçu
 
-Voir les captures dans le dossier `captures/`.
+![Dashboard](captures/ou-structure.png)
 
-## ⚡ Automatisation
+## Automatisation
 
 Le dossier `scripts/` contient un script PowerShell pour automatiser :
 
@@ -40,8 +39,3 @@ Le dossier `scripts/` contient un script PowerShell pour automatiser :
 - La création des utilisateurs
 - L’ajout au groupe `Admins`
 
-## ✅ Ce que j’ai appris
-
-- Installer et configurer Active Directory
-- Organiser un domaine avec des UO, utilisateurs et groupes
-- Utiliser PowerShell pour l’administration système
